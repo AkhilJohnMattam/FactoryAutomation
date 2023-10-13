@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Factory Automation Solutions Teams</title>
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand text-black fw-bold" href="#"><h5>Factory Automation Solutions Team</h5></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Main_Page.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="IndRev.html">Industrial Revolution</a></li>
+                  <li><a class="dropdown-item" href="Automation.html">Automation Pyramid</a></li>
+                  <li><a class="dropdown-item" href="SmartFact.html">Smart Factories</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="AI.html">AI in Manufacturing Industries</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="#footer">About</a>
+              </li>
+            </ul>
+                <div>
+                    <a class="btn btn-info" href="Sign_Up.html" role="button">Sign Up</a>
+                    <a class="btn btn-success" href="Sign_In.html" role="button">Sign In</a> 
+                </div>
+                       
+                        
+            
+          </div>
+        </div>
+      </nav>
+
+    
+    
+    <!--Main Section-->
+      <h4 class="text-center text-decoration-underline"  >Artificial Intelligence in Manufacturing - Examples</h4>
+      <p class="p-4">Manufacturers use AI to analyse sensor data and predict breakdowns and accidents.
+         Synthetic intelligence systems aid production facilities in determining the likelihood of future failures in operational machinery, allowing for preventative maintenance and repairs to be scheduled in advance.
+         AI also drives safety related projects,thus reducing the chances of accidents, Given below is details about using camera based solution in Industry</p>
+         
+        <div class="row align-items-start">
+              <div class="col-md-6 border border-secondary">
+                <img src="./Images/AI-1.jpg" class=" slide d-block w-100 h-50" alt="...">
+                
+              </div>
+              <div class="col-md-6 ">
+                <h4 class="font-weight-bold text-center text-decoration-underline">Object Detection using AI Architecture</h4>
+                <p">Image read from the camera is processed using AI algorithms implemented in python language to detect the presence of human and gives a trigger</p>
+                <p>The Processor running the program was named as Flagman</p>
+                <p>These logics were implemented using a jetson nano controller,which provide a 5v logic output using the GPIO pins of the controller</p>
+                <p>5v output was used to energize a relay and this input was connected to our PLC to provide a safety interlock to the machine</p>
+                </div>
+            </div>
+            <div class="row align-items-start p-4">
+                <div class="col-md-6 border border-secondary">
+                  <img src="./Images/AI-2.jpg" class=" slide d-block w-100 h-50" alt="...">
+                  
+                </div>
+                <div class="col-md-6">
+                  <h4 class="font-weight-bold text-center text-decoration-underline">Hand Safety in Industries using AI</h4>
+                  <p>Whenever human hand is detected in the area marked, AI System sends a command to stop the machine</p>
+                  <p>This helps in reducing the risk associated with saw operation</p>
+                </div>
+              </div>
+          </div>
+          <div class="row align-items-start p-4">
+            <div class="col-md-6 border border-secondary">
+              <img src="./Images/AI-3.jpg" class=" slide d-block w-100 h-50" alt="...">
+              
+            </div>
+            <div class="col-md-6">
+              <h4 class="font-weight-bold text-center text-decoration-underline">Human Safety in Industries using AI</h4>
+              <p class="p-4">If AI based camera system detects human presence in Work station</p>
+              <p>Then it will trigger a command to close the boom barrier which will eventually avoid forklift entry to the station during human presence</p>
+            </div>
+          </div>
+      </div>
+    <!--Footer-->
+    <div class = "container-fluid bg-dark-subtle" id="footer">
+        <div class="row p-4">
+            <h4 class="text-center">About</h4>
+            <div class="col-4 text-start">
+                <h5 class="text-dark">Factory Automation Solutions Team </h5>
+                <p>Pala</p>
+                <p>Kerala</p>
+                <p>Phone:- 8943408480</p>
+                <p>Email:- akhilthrissur.john@gmail.com</p>  
+            </div>
+            <div class="col-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62921.394319014005!2d76.64663201095945!3d9.716232785916157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cdceb06d5e9f%3A0xb33a8fbfd6cf2e34!2sPala%2C%20Kerala!5e0!3m2!1sen!2sin!4v1697181907666!5m2!1sen!2sin"
+                 width="350" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-4">
+                <img src="./Images/Smart Factory.jpg" class="img-fluid" alt="...">
+            </div>
+            
+          
+        </div>
+    </div>
+    
+    <!--Bootstrap.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src = "/js/bootstrap.js"></script>
+    
+</body>
+</html>
